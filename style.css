@@ -1,0 +1,50 @@
+.body {margin: 0; font-family: Helvetica, sans-serif;}
+.header{position: sticky; top:0; z-index: 100;}
+.header3{font-family:Georgia, 'Times New Roman', Times, serif; padding-right: 25%}
+
+/*Header design*/
+
+.top-bar{background-color: rgb(220, 231, 245); color: rgb(91, 0, 0); display:flex; justify-content: space-between; border-bottom: 5px solid black; font-weight: bolder; font-size:xx-large; font-display: auto;}
+
+.bottom-bar{background-color: rgb(220, 231, 245); color: rgb(0, 0, 0); display: flex; align-items: right; justify-content: space-around;}
+.nav-bar{background-color: rgb(220, 231, 245); color:beige; padding: 0;}  /*display: flex; align-items: center; justify-content: space-around; padding: 5px 30px;*/
+.nav-bar nav{display: flex; width: 100%;}
+.nav-bar nav a{flex: 1; text-align: center; padding: 12px 0; margin: 0; color:white}
+.btn-design{background-color: rgba(147, 13, 13, 0.705);
+     color: rgb(255, 255, 255); font-weight:bolder; border-style: groove; }
+.nav-bar-img{display:flex; flex:1; max-inline-size:8%;}
+    /*Main body design*/
+        /*Landing Quote*/
+.body{background-image:url('background.jpg'); background-size:auto;
+     background-position:center;}
+.landing-container{margin: 3% auto; background-color: rgba(255, 72, 0, 0.438);}
+.landing{display: block; text-align:center; font-size: 30; font-family:'Trebuchet MS',
+     'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif}
+.about-passage{}
+        /*Main Body Text*/
+.contact-section{background-color:rgb(121, 93, 93);}
+.contact{text-align:center; color:#000000;}
+.iframe{border-radius: 5%; margin: 1%; padding-left: 35%;} /*Easter egg: I'm lazy..*/
+        /*Main Container*/
+.home-container{background: transparent; padding-left: 10%;
+     padding-right: 10%;background: linear-gradient(to right, #fff200, #ff3636); padding-bottom: 5%;}
+.home-main-body{font-size: 30px; text-align: center; display:block;}
+.home-main-image{inline-size: 31%; border-style:double; border-radius: 10%;}
+.home-main-image3{inline-size:45%; border-style: double; border-radius: 10%;}
+.home-main-image2{inline-size:55%; border-style:double; border-radius:10%}
+.about-main-page{font:caption; border: #ff3636; text-align:center; padding-left:20%;padding-right:20%;}
+.about-home{background: linear-gradient(to right, #fff200, #ff3636);}
+.about-page-title{text-align: center; font-size: xx-large; text-decoration-line: underline; color:rgb(72, 0, 14);}
+
+/*Services*/
+.service-header{background-color: #ff3636; text-align: center;}
+.services{display:grid;}
+                /*Banner Displays the banners class is a background class, the idea here was inheritance of the banner class for the images so they have preset parameters to display* Much nicer then just re-typing each display over and over again*/
+.banners{background-size:cover; background-position: center; min-height: 40vh; color:rgb(0, 0, 0); font-size: x-large; font-style: italic; text-decoration:overline; font-weight:bolder;}/*BANNER DISPLAY*/
+.firesprinklers{background-image:url('firesprinkler.jpg');}
+.firepumpsandtanks{background-image:url('firepumps.jpg');}
+.standpipe{background-image:url('standpipe.jpg')}
+.firealarm{background-image:url('firealarm.jpg')}
+.fireextinguishers{background-image:url('FireExt.png')}
+            /*Footer*/
+.footer{background-color: #ffcccc; color:rgb(255, 0, 0);text-align:center;}
